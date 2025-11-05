@@ -1,13 +1,17 @@
-# StyleBlend
-AI-Powered Virtual Hairstyle Try-On & Personalized Hairstyle Recommendations
+# StyleBlend  
+### AI-Powered Virtual Hairstyle Try-On & Personalized Hairstyle Recommendations
 
-StyleBlend is a generative-AI powered web application that allows users to
-✅ Upload a photo
-✅ Detect their face shape
-✅ Get top personalized hairstyle recommendations
-✅ Try on hairstyles virtually in real-time
-✅ View trending hairstyles extracted from social media
--------------------------------------------------------------------------------------------------------------
+StyleBlend is a generative-AI powered web application that enables users to:
+
+- Upload a photo  
+- Detect their face shape  
+- Receive top personalized hairstyle recommendations  
+- Try on hairstyles virtually in real-time  
+- Explore trending hairstyles from social media  
+
+StyleBlend bridges **AI, computer vision, and fashion intelligence** to deliver realistic virtual hairstyle transformations tailored to each user.
+
+
 | Feature                  | Description                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------ |
 | Face Shape Detection     | CNN-based model classifying face shapes (oval, round, square, heart, diamond)  |
@@ -15,9 +19,7 @@ StyleBlend is a generative-AI powered web application that allows users to
 | Virtual Try-On           | High-quality hairstyle blending using latent space manipulation & segmentation |
 | Trend Extraction         | Pulls trending hairstyles from social platforms to suggest modern looks        |
 | User Interaction         | Upload image → Analyze → Recommend → Try-On                                    |
--------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------
 | Area            | Tech                                              |
 | --------------- | ------------------------------------------------- |
 | Deep Learning   | PyTorch / TensorFlow, StyleGAN2                   |
@@ -25,24 +27,22 @@ StyleBlend is a generative-AI powered web application that allows users to
 | Web App         | Streamlit / Flask (your implementation)           |
 | Deployment      | Google Colab GPU, Drive for model storage         |
 | Libraries       | NumPy, Matplotlib, Selenium (for trends scraping) |
------------------------------------------------------------------------
 
-Dataset
-FFHQ Face dataset
-Custom curated hairstyle dataset (400 images)
-Trending hairstyles scraped from Instagram
+### Dataset
+- FFHQ Face dataset
+- Custom curated hairstyle dataset (400 images)
+- Trending hairstyles scraped from Instagram
 
-StyleBlend/
- ┣ src/
- ┃ ┣ models/
- ┃ ┣ face_shape_classifier/
- ┃ ┣ stylegan/
- ┃ ┣ trend_scraper/
- ┃ ┗ utils/
- ┣ assets/
- ┣ notebooks/
- ┣ results/
- ┣ requirements.txt
- ┣ README.md
- ┗ LICENSE
+### Future Improvements
+- Reduce inference latency and improve real-time blending
+- Add hair color & style edit controls
+- Train on diverse global hairstyle datasets
+- Deploy as full web/mobile app
+
+### Developers
+- Palle Prabhas Reddy
+- Pari Maheshwari
+- Prarthana Jyothi
+- Aditya Johnson Stanley
+- Guide: Prof. Suresh Jamadagni PES University, Bengaluru
 
